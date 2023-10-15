@@ -156,6 +156,7 @@ const About = () => {
     },
   ];
 
+  /* eslint-disable */
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Helmet>
