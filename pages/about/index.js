@@ -15,21 +15,7 @@ import CountUp from "react-countup";
 import { Helmet } from "react-helmet";
 
 const About = () => {
-  const [experience, setExperience] = useState([]);
-  const [skills, setSkills] = useState([]);
   const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const query = '*[_type == "experiences"]';
-    const skillsQuery = '*[_type == "skills"]';
-
-    client.fetch(query).then((data) => {
-      setExperience(data);
-    });
-    client.fetch(skillsQuery).then((data) => {
-      setSkills(data);
-    });
-  }, []);
 
   const aboutData = [
     {
