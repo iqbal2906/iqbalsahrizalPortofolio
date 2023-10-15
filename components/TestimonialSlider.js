@@ -13,22 +13,34 @@ import Image from "next/image";
 // data
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
-    message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    image: "/t-ava-1.png",
+    name: "Muhammad Jafar Shodiq",
+    position: "Backend Developer at PT Axiata Digital Services Indonesia",
+    message: "He is Hard Worker person, he shows his passion learning, even though he faced a problem that he never meet before, he can come up with a solution. (via LinkedIn)",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
-    message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    image: "/t-ava-2.png",
+    name: "Nurul Hidayati, SE, SH",
+    position: "HRD at PT Giat Bangun Indonesia (Pazemo)",
+    message: "Iqbal is very motivated, forward thingking and also intellegent Front End Engineer who has a lot knowledge in technology. His so enthuasiat, fast learning and passionate about financial technology. I'll trust Iqbal will lead a team and finish all the task perfectly! it was fun and happy to work with Iqbal! (via LinkedIn)",
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
-    message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    image: "/t-ava-3.png",
+    name: "Dino Priyano",
+    position: "Android Developer at PT Global Digital Niaga (Blibli)",
+    message: "Iqbal is a creative person and good at technology, especially front end development. I know Iqbal is a very productive person, quick to understand new things, and very friendly. I am very happy to have a colleague like Iqbal. (via LinkedIn)",
+  },
+  {
+    image: "/t-ava-4.png",
+    name: "Ahmad Fajar Islami",
+    position: "Backend Developer at PT Kawan Lama Sejahtera",
+    message: "When i worked with Iqbal, he worked as Frontend Developer and I as a Backend Developer, He has the ability to learn quickly, quick to learn new things and friendly. He has high CSS skills. (via LinkedIn)",
+  },
+  {
+    image: "/t-ava-5.png",
+    name: "Yeska Haganta",
+    position: "Software Engineer at Kementerian Perdagangan Republik Indonesia",
+    message: "Well, he is someone who always ready to be tired, when the task is undone, he never give up to solve the problem before the tasks is done! (via LinkedIn)",
   },
 ];
 

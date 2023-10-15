@@ -168,7 +168,7 @@ const About = () => {
       <motion.div variants={fadeIn("right", 0.2)} initial="hidden" animate="show" exit="hidden" className="hidden xl:flex absolute bottom-0 -left-[140px]">
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="overflow-y-auto container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2 variants={fadeIn("right", 0.2)} initial="hidden" animate="show" exit="hidden" className="h2">
             Captivating <span className="text-accent">stories</span> birth magnificient designs.
